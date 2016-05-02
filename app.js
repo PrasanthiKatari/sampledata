@@ -32,6 +32,8 @@ countryApp.factory('countries', function($http){
             }).success(callback);
         }
     };
+
+
 });
 
 countryApp.directive('country', function(){
